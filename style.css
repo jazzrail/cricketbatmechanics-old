@@ -11,19 +11,26 @@ html {
 body {
 	background-color: lightgreen; // this is a fall back
 	background-image: linear-gradient(315deg, #f3f3f5 10%, lightgreen 64%);
-}
-
-.container {
-}
-
-.header {
-	color: white;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	text-align: center;
-	padding: 1rem;
 }
+
 .intro {
 	padding: 3rem;
 	max-width: 800px;
 	margin: 0 auto;
+	color: rgba(39, 36, 36, 0.788);
+	padding: 1rem;
+}
+
+.title {
+	text-align: center;
+	padding: 1.5rem;
+	font-size: 1.5rem;
+	color: white;
+}
+.intro__text h1,
+h2,
+h3 {
+	margin-top: 2rem;
+	margin-bottom: 1rem;
 }
