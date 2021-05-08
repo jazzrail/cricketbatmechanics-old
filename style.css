@@ -1,0 +1,29 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	min-height: 100%;
+}
+
+body {
+	background-color: lightgreen; // this is a fall back
+	background-image: linear-gradient(315deg, #f3f3f5 10%, lightgreen 64%);
+}
+
+.container {
+}
+
+.header {
+	color: white;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	text-align: center;
+	padding: 1rem;
+}
+.intro {
+	padding: 3rem;
+	max-width: 800px;
+	margin: 0 auto;
+}
